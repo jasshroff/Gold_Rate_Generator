@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SGV_Gold_Rate</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    
+    <h1>Shree Gopaldas Vallabhdas Jewellers</h1>
+    <h2>Gold Rate Calculator
+      <div class="image-container">
+        <img src="sgv jas.png" alt="Description of the image">
+      </div>
+    </h2>
+    <label for="gold-type">Select gold type:</label>
+    <select id="gold-type">
+      <option value="24k">24k Gold</option>
+      <option value="24k+GST">24k+GST Gold</option>
+    </select>
+    <label for="rate">Enter gold rate:</label>
+    <input type="number" id="rate" step="0.01">
+    <button id="calculate">Calculate Rate</button>
+    <p id="result"></p>
+    <script src="script.js"></script>
+  </body>
+</html>
